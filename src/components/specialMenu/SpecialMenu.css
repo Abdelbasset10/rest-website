@@ -1,0 +1,102 @@
+.special-menu-section{
+    padding: 4rem 6rem;
+    background-color: var(--color-black);
+}
+.special-menu-section-title{
+    text-align: center;
+}
+.special-menu-section-title h1{
+    margin: 2rem 0;
+}
+.special-menu-section-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.special-menu-section-content-left-side{
+    flex: 1;
+}
+.special-menu-section-content-left-side .p__cormorant{
+    text-align: center;
+}
+.special-menu-section-content-right-side .p__cormorant{
+    text-align: center;
+}
+.specialConst-section{
+    margin: 1.5rem 0;
+}
+.specialConst-section-up-side{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.specialConst-section-up-side h4{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-size: 20px;
+}
+.specialConst-section-up-side p{
+    color:var(--color-white)
+}
+.specialConst-section-up-side div{
+    width: 100px;
+    height: 2px;
+    background-color: var(--color-gray);
+    margin: 0 2rem;
+}
+.specialConst-section-down-side{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.specialConst-section-down-side div{
+    width: 1px;
+    height: 20px;
+    background-color: var(--color-grey);
+    margin: 0 1rem;
+}
+.specialConst-section-down-side p{
+    color:var(--color-gray);
+    font-weight: 500;
+}
+.special-menu-section-content-center-side{
+    flex: 1;
+    margin-left: 2rem;
+    
+}
+.special-menu-section-content-center-side img{
+  width: 80%;
+    
+}
+.special-menu-section-content-right-side{
+    flex: 1;
+    margin-left:0;
+}
+.special-menu-section .btn{
+    margin: 2rem 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1024px){
+    .special-menu-section{
+        padding: 4rem 2rem;
+    }
+    .special-menu-section-content{
+        flex-direction: column;
+    }
+    .special-menu-section-content-center-side{
+        margin: 2rem 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 475px){
+    .special-menu-section-title h1{
+        font-size: 39px;
+    }
+
+}

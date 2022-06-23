@@ -1,0 +1,33 @@
+.findUs-section{
+    padding: 4rem 6rem;
+    background-image: url(/public/img/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.findUs-section-left-side{
+    flex: 1;
+}
+.findUs-section-right-side{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.findUs-section-right-side img{
+    width: 80%;
+}
+
+
+@media screen and (max-width: 1024px){
+    .findUs-section{
+        flex-direction: column;
+        padding: 4rem 2rem;
+    }
+    .findUs-section-left-side{
+        margin: 2rem 0;
+    }
+}

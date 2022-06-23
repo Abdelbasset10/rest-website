@@ -1,0 +1,105 @@
+.classement-section{
+    background-image: url(/public/img/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    padding: 4rem 6rem;
+    position: relative;
+}
+.classement-section-img{
+ margin-left: -2rem;
+ margin-bottom: 2rem;
+}
+.classement-section-img img{
+    width: 10%;
+}
+.classement-section-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.classement-section-content-left-side{
+    flex: 1;
+}
+.classement-section-content-left-side-classement{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.classementConst-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 1rem;
+}
+.classementConst-section img{
+    width: 100%;
+}
+.classementConst-section-left-side{
+    margin-right: 1rem;
+}
+.classementConst-section-right-side h4{
+    color:var(--color-golden);
+    margin-bottom: 0.5rem;
+}
+.classementConst-section-right-side p{
+    color:var(--color-grey)
+}
+.classement-section-content-right-side{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.classement-section-content-right-side img{
+    width: 80%;
+}
+
+@media screen and (max-width: 1024px){
+    .classement-section-content{
+        flex-direction: column;
+    }
+    .classement-section-img{
+        
+        margin-left: -2rem;
+    }
+    .classement-section-img img{
+        width: 20%;
+        }
+}
+
+@media screen and (max-width: 650px){
+    .classement-section{
+        padding: 4rem 2rem;
+    }
+    .classement-section-content-left-side-classement{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .classement-section-img{
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+    .classement-section-img img{
+    width: 60%;
+    }
+    .classement-section-content-left-side h1{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .classementConst-section{
+        flex-direction: column;
+    }
+    .classementConst-section-right-side{
+        text-align: center;
+    }
+    .classementConst-section-right-side h4{
+        margin: 1rem 0;
+    }
+   
+    .classement-section-content-left-side .p__opensans{
+        font-size: 12px;
+    }
+    
+
+}

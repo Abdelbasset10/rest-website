@@ -1,0 +1,58 @@
+.chef-section{
+    padding: 4rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(/public/img/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+.chef-section-left-side{
+    flex: 1;
+}
+.chef-section-left-side img{
+    width: 80%;
+}
+.chef-section-right-side{
+    flex: 1;
+}
+.chef-section-right-side-says{
+    margin: 1rem 0;
+}
+.chef-section-right-side p{
+    color: var(--color-grey);
+}
+.chef-section-right-side-sign img{
+    width: 30%;
+    margin: 2rem 0;
+}
+.register-icon{
+    font-size: 40px;
+    color:white;
+    margin-bottom: -0.6rem;
+}
+
+@media screen and (max-width: 1024px){
+    .chef-section{
+        padding: 4rem 2rem;
+        flex-direction: column;
+    }
+    .chef-section-left-side{
+        display: flex;
+        justify-content: center;
+    }
+    .chef-section-right-side{
+        margin-top: 4rem;
+    }
+    .chef-section-right-side h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .chef-section-right-side h1{
+        font-size: 29px;
+    }
+
+}
